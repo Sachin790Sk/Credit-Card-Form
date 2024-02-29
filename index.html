@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CC FORM</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="credit-card-container">
+    <form class="form" id="credit-card-form">
+      <div class="form-header">
+        <h2 class="title">Credit Card Form</h2>
+      </div>
+      <div class="form-body">
+        <label class="card-number-label">
+          <span class="title">Card Number</span>
+          <input class="card-number" type="text" name="cardnumber" maxlength="16" placeholder="•••• •••• •••• ••••">
+        </label>
+        <label class="expiration-date-label">
+          <span class="title">Expiration Date</span>
+          <input class="expiration-date" type="text" name="experationdate" maxlength="7" placeholder="MM/YYYY">
+        </label>
+        <label class="cvv-label">
+          <span class="title">CVV</span>
+          <input class="cvv" type="text" name="cvvnumber" maxlength="3" placeholder="•••">
+        </label>
+      </div>
+      <div class="form-footer">
+        <button class="submit-button" type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
